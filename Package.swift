@@ -9,10 +9,12 @@ let package = Package(
     products: [
         .library(
             name: "TOCropViewController",
+            type: .dynamic,
             targets: ["TOCropViewController"]
         ),
         .library(
             name: "CropViewController",
+            type: .dynamic,
             targets: ["CropViewController"]
         )
     ],
